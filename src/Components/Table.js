@@ -1,12 +1,14 @@
 import React from 'react'
 import { Table } from "antd";
+import moment from 'moment';
+
 export default function DataTable({ data }) {
   const columns = [
     {
       title: 'Date',
       dataIndex: 'timestamp',
       key: 'timestamp',
-      sorter: (a, b) => a.timestamp > b.timestamp ? 1 : -1
+      sorter: (a, b) => moment(a.timestamp).diff(moment(b.timestamp))
     },
     {
       title: 'Game',

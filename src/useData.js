@@ -1,6 +1,6 @@
 import React, { useReducer, useEffect } from 'react';
 import moment from 'moment';
-const URI = 'http://www.mocky.io/v2/5cd04a20320000442200fc10';
+const URI = 'https://www.mocky.io/v2/5cd04a20320000442200fc10';
 const testData = [{
     "timestamp": "2019-04-10",
     "game": "Callbreak Multiplier",
