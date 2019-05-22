@@ -1,0 +1,28 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+.header-text {
+    color: rgb(69, 80, 240);
+    font-weight: 600;
+}
+
+.datepicker-container {
+    padding: 1rem
+}
+
+.chart-container {
+    padding: 1rem;
+    border: 1px solid #aaa;
+    margin-bottom: 0.3rem;
+}
+
+.table-container {
+    padding: 1rem;
+    border: 1px solid #aaa;
+}
