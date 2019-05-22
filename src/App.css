@@ -17,12 +17,41 @@
 }
 
 .chart-container {
-    padding: 1rem;
-    border: 1px solid #aaa;
+    width: 500px;
+    height: 300px;
+    padding: 0.5rem;
     margin-bottom: 0.3rem;
 }
 
 .table-container {
     padding: 1rem;
     border: 1px solid #aaa;
+}
+
+
+/* On screens that are 992px or less, set the background color to blue */
+
+@media screen and (max-width: 992px) {
+    .datepicker-container {
+        padding: 0.5rem;
+        margin: 0 auto;
+    }
+    .chart-container {
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+
+
+/* On screens that are 600px or less, set the background color to olive */
+
+@media screen and (max-width: 600px) {
+    .datepicker-container {
+        padding: 0.5rem;
+        margin: 0 auto;
+    }
+    .chart-container {
+        width: 100%;
+        margin: 1rem;
+    }
 }
